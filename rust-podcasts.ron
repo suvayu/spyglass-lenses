@@ -1,0 +1,18 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "rust-podcasts",
+    description: Some("Rustacean Station"),
+    is_enabled: true,
+    domains: [
+        "rustacean-station.org",
+    ],
+
+    urls: [
+        "https://rustacean-station.org/episode/",
+    ],
+
+    rules: [
+         LimitURLDepth("https://rustacean-station.org/episode/", 1)
+    ]
+)

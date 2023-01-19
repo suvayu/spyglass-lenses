@@ -1,0 +1,25 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "python-podcasts",
+    description: Some("Talk Python to me & Python Bytes"),
+    is_enabled: true,
+    domains: [
+        "talkpython.fm",
+	"pythonbytes.fm"
+    ],
+
+    urls: [
+        "https://talkpython.fm/episodes/show/",
+        "https://talkpython.fm/episodes/transcript/",
+        "https://pythonbytes.fm/episodes/show/",
+        "https://pythonbytes.fm/episodes/transcript/",
+    ],
+
+    rules: [
+         LimitURLDepth("https://talkpython.fm/episodes/show/", 2),
+         LimitURLDepth("https://talkpython.fm/episodes/transcript/", 2),
+         LimitURLDepth("https://pythonbytes.fm/episodes/show/", 2),
+         LimitURLDepth("https://pythonbytes.fm/episodes/transcript/", 2),
+    ]
+)
