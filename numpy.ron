@@ -1,0 +1,19 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "numpy",
+    description: Some("NumPy documentation"),
+    is_enabled: false,
+    domains: [
+        "numpy.org",
+    ],
+
+    urls: [
+	"https://numpy.org/doc/stable/user/",
+	"https://numpy.org/doc/stable/reference/",
+	"https://numpy.org/doc/stable/dev/",
+	"https://numpy.org/numpy-tutorials/"
+    ],
+
+    rules: []
+)

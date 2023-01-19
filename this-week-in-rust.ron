@@ -1,0 +1,16 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "this-week-in-rust",
+    description: Some("This week in Rust newsletter"),
+    is_enabled: true,
+    domains: [
+        "this-week-in-rust.org",
+    ],
+
+    urls: [
+        "https://this-week-in-rust.org/blog/",
+    ],
+
+    rules: []
+)

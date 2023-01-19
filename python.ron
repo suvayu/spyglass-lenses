@@ -1,0 +1,25 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "python",
+    description: Some("Python documentation"),
+    is_enabled: true,
+    domains: [
+        "*.python.org",
+    ],
+
+    urls: [
+	"https://peps.python.org/",
+	"https://devguide.python.org/",
+	"https://docs.python.org/3/tutorial/",
+	"https://docs.python.org/3/library/",
+	"https://docs.python.org/3/reference/",
+	"https://docs.python.org/3/howto/",
+	"https://docs.python.org/3/extending/",
+	"https://docs.python.org/3/c-api/",
+	"https://docs.python.org/3/faq/",
+	"https://packaging.python.org/en/latest/",
+    ],
+
+    rules: []
+)

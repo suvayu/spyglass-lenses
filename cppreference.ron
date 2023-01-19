@@ -1,0 +1,17 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "cppreference",
+    description: Some("C/C++ documentation"),
+    is_enabled: false,
+    domains: [
+        "en.cppreference.com",
+    ],
+
+    urls: [
+	"https://en.cppreference.com/w/cpp",
+	"https://en.cppreference.com/w/c"
+    ],
+
+    rules: []
+)

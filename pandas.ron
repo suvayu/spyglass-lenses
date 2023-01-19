@@ -1,0 +1,18 @@
+(
+    version: "1",
+    author: "Suvayu Ali",
+    name: "pandas",
+    description: Some("Pandas documentation"),
+    is_enabled: false,
+    domains: [
+        "pandas.pydata.org",
+    ],
+
+    urls: [
+	"https://pandas.pydata.org/docs/user_guide/",
+	"https://pandas.pydata.org/docs/reference/",
+	"https://pandas.pydata.org/docs/development/",
+    ],
+
+    rules: []
+)
